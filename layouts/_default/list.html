@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div>
+    <ul>
+        {{ range .Site.RegularPages }}
+        <li>
+            <time>{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 02, 2006") }}</time> <a
+                href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+
+{{ end }}

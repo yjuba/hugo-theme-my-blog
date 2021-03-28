@@ -1,0 +1,12 @@
+name = "my-blog"
+license = "MIT"
+licenselink = "https://github.com/yjuba/hugo-theme-my-blog/blob/master/LICENSE"
+description = ""
+homepage = "https://www.y103.dev/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "yjuba"
+  homepage = "https://www.y103.dev/"
