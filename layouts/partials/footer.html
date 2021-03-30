@@ -1,5 +1,5 @@
 <footer>
     <p>
-        &copy; {{ dateFormat "2006" now }} {{ .Site.Title }}. All rights reserved.
+        {{ replace .Site.Copyright "{year}" now.Year }}
     </p>
 </footer>
